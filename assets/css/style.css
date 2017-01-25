@@ -1,94 +1,90 @@
-/**
- * Float Layout Activity 
- **/
-
-* {
-  box-sizing: border-box;
-  text-align: center;
-}
-
-body {
-
-}
-
-header {
-
-	padding: 20px;
-	margin-bottom: 20px;
-	color: #333;
-  	background: #ccc;
-	}
-
 #content {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
+		  background-image: url("../images/cork-wallet.png");
 		}
 
-#left {
-		padding: 20px;
-	margin-bottom: 20px;
-	color: #333;
-	width: 20%;
-	 float: left; 
- 	background: #666;
+header {
+		height: 70px;
+		background-color: white;
+		}
+
+#titletag{
+		background-color: #4aaaa5;
+		margin-left: 100px;
+		padding-top: 20px;
+		padding-bottom: -50px;
+		height: 100%;
+		width: 200px;
+		text-align: center;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		}
+
+
+#navigation {
+			margin-top: -70px;
+			margin-left: 700px;
+			height: 100%
+			color: #777777;
+ 			font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;;  
+			}
+#about{
+			margin-top: 20px;
+			color: black;
+ 			font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;;  
+ 			font-size: 20px;
 	}
 
-#middle {	
-		padding: 20px;
-	margin-bottom: 20px;
-	width: 60%;
-	color: #333;
- 	float: left; 
- 	background: #888;
-}
-
-#right {
-		padding: 20px;
-	margin-bottom: 20px;
-	color: #333;
-	width: 20%;
-	 float: right; 
- 	background: #666;
-}
-
 #main {
-	padding: 20px;
-	margin-bottom: 20px;
-	color: #333;
-	clear:both;
+
+	padding: 15px;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+	margin-left: 100px;
+	width: 650px;
     overflow: auto;
+    border: 1px;
+    border-color: #dddddd;
+    color: #777777;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 11px;
 }
 
+#sidebar {
+		clear: left;
+ 	 	float: right;
+ 	   	margin: 0 0 10px 10px;
+		color: #333;
+		width: 270px;
+	 	background: #ffffff;
+	 	position: relative;
+
+		}
+		
 #division {
 
-	padding: 20px;
-	margin-bottom: 20px;
-	width: 100%;
+	padding: 1px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	width: 90%;
 	background:  #6ea3da;
 
 }
 
-
-
 section {
-		padding: 20px;
 		margin-bottom: 20px;
 		background:  #eee;
     	 }
 
 aside 	{
-		padding: 2px;
-		margin-bottom: 2px;
-		margin-left: 3px;
-		background:  #fff;
+		background: white;
 		float: left;
-		width: auto;
-		border: 2px;
+		padding: 20px;
 		}
 
 footer {
 		padding: 20px;
 		margin-bottom: 20px;
-		background:  #ccc;
+		background: #666666;
+		float: bottom;
 		}
