@@ -1,10 +1,16 @@
-#content {
+body {
 		  background-image: url("../images/cork-wallet.png");
 		}
 
 header {
 		height: 70px;
 		background-color: white;
+		}
+
+#content {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
 		}
 
 #titletag{
@@ -34,11 +40,11 @@ header {
 	}
 
 #main {
-
+	float: left;
 	padding: 15px;
 	margin-bottom: 5px;
+	margin-top: 50px;
 	background-color: #ffffff;
-	margin-left: 100px;
 	width: 650px;
     overflow: auto;
     border: 1px;
@@ -49,14 +55,13 @@ header {
 }
 
 #sidebar {
-		clear: left;
+		clear: all;
  	 	float: right;
- 	   	margin: 0 0 10px 10px;
+ 	 	position: absolute;
+ 	   	margin: 0 0 700px 10px;
 		color: #333;
 		width: 270px;
 	 	background: #ffffff;
-	 	position: relative;
-
 		}
 		
 #division {
@@ -71,10 +76,7 @@ header {
 
 }
 
-section {
-		margin-bottom: 20px;
-		background:  #eee;
-    	 }
+
 
 aside 	{
 		background: white;
@@ -83,8 +85,11 @@ aside 	{
 		}
 
 footer {
-		padding: 20px;
-		margin-bottom: 20px;
-		background: #666666;
-		float: bottom;
-		}
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
