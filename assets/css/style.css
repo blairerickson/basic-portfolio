@@ -1,6 +1,7 @@
 body {
 		  background-image: url("../images/cork-wallet.png");
 		  	margin: 0;
+		  	font-family: 'Arial';
 		}
 
 header {
@@ -149,21 +150,21 @@ h2 p {
 		height: 120px;
 		background-image: url("../images/port2.png");
 		background-size: contain;
-		  line-height: 190px;
+		line-height: 190px;
 		}
 #pic3 {
 		width: 180px;
 		height: 120px;
 		background-image: url("../images/port3.png");
 		background-size: contain;
-		  line-height: 190px;
+		line-height: 190px;
 		}
 #pic4 {
 		width: 180px;
 		height: 120px;
 		background-image: url("../images/port4.png");
 		background-size: contain;
-		  line-height: 190px;
+		line-height: 190px;
 		}
 #pic5 {
 		width: 180px;
@@ -192,9 +193,11 @@ footer {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-  height: 20px;
-  font-size: 20px;
+  height: 22px;
+  font-size: 30px;
   font-family: 'Futura';
+  color: gray;
+  font-size: 5px;
 }
 
 
