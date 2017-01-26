@@ -103,29 +103,67 @@ header {
 	font-size: 13px;
 		}
 
-#picleft 
- img {
+.picleft 
+ {
 
 	float: left;
 	position: relative;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 50px;
 	margin-top: 20px;
 	border-style: solid;
 	border-width: 1px;
+	text-align: center;
+	background-color: blue;
 	}
 
-#picright 
- img {
-
+.picright 
+ 	{
 	float: right;
 	position: relative;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 50px;
 	margin-top: 20px;
     border-style: solid;
 	border-width: 1px;
+	text-align: center;
 	}
+
+#pic1 {
+		width: 180px;
+		height: 120px;
+		background-image: url("../images/port1.png");
+		background-size: contain;
+		  line-height: 190px;
+		}
+
+#pic2 {
+		width: 180px;
+		height: 120px;
+		background-image: url("../images/port2.png");
+		background-size: contain;
+		  line-height: 190px;
+		}
+#pic3 {
+		width: 180px;
+		height: 120px;
+		background-image: url("../images/port3.png");
+		background-size: contain;
+		  line-height: 190px;
+		}
+#pic4 {
+		width: 180px;
+		height: 120px;
+		background-image: url("../images/port4.png");
+		background-size: contain;
+		  line-height: 190px;
+		}
+#pic5 {
+		width: 180px;
+		height: 120px;
+		background-image: url("../images/port5.png");
+		background-size: contain;
+		  line-height: 190px;
+		}
+
 
 
 aside {
