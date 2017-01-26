@@ -103,16 +103,15 @@ header {
 	font-size: 13px;
 		}
 
-h2 span { 
+h2 p { 
    color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
+   font: bold 14px/18px Helvetica, Sans-Serif; 
+   letter-spacing: 2px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
-   padding-left: 39px;
-   padding-right: 39px;
-}
+ 	margin-top: 80px;
+ }
 
 .picleft 
  {
